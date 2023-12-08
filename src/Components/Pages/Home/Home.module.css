@@ -1,0 +1,63 @@
+.home {
+  background: url('../../Assets/paw.svg');
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.p {
+  width: 700px;
+  text-align: center;
+  margin: 20px auto
+}
+
+.container_marcas {
+  background: url('../../Assets/paw.svg');
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position: right;
+}
+
+.container_destaques {
+  background: url('../../Assets/paw.svg');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: left;
+  width: 90rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.container_produtos {
+  width: 1100px;
+  display: grid;
+  justify-content: center;
+  margin-left: 100px;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+@media (max-width: 1367px) {
+  .container_destaques {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .p {
+    width: 90vw;
+  }
+  .container_destaques {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_produtos {
+    width: 100%;
+    margin: 60px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
