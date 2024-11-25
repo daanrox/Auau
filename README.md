@@ -9,7 +9,7 @@ Este projeto foi concebido com o compromisso de oferecer uma experiência comple
 
 Estamos constantemente trabalhando para aprimorar essa plataforma, incorporando novas funcionalidades, melhorias de desempenho e uma gama mais ampla de opções para atender às necessidades variadas dos nossos clientes e seus amados pets. Sua contribuição e feedback são essenciais para tornar o Petshop Auau um ambiente ainda mais acolhedor e eficiente.
 
-Seja parte desta jornada conosco! Explore, descubra e ofereça o melhor para seus pets no universo Auau.
+Seja parte desta jornada conosco! Explore, descubra e ofereça o melhor para seus pets no universo Auau
 
 ### Deploy
 Aplicação em produção: [https://auau.vercel.app](https://auau.vercel.app)
